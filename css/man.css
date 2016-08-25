@@ -1,0 +1,81 @@
+.man-welcome {
+    padding-bottom: 25px;
+}
+
+.man-page {
+    padding: 20px 0px;
+    padding-right: 50px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.man-welcome a {
+    font-family: helvetica, sans-serif;
+    color: #1030ff;
+}
+
+a {
+    color: #1030ff !important;
+}
+
+.man-header div {
+    font-family: monospace, courier;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.man-section {
+    padding-top: 15px;
+}
+
+.man-section .man-section-header {
+    font-family: helvetica, sans-serif;
+    margin-top: 25px;
+    font-size: 16px;
+    color: #A00000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.man-section .man-section-header span {
+    color: #1030ff;
+    font-size: 70%;
+    margin-left: 50px;
+    text-transform: lowercase; 
+}
+
+.man-section p {
+    padding-left: 70px;
+    font-family: monospace, courier;
+    font-size: 16px;
+}
+
+.man-section p span {
+    padding-left: 70px;
+    display: block;
+}
+
+.console {
+    height: 100%;
+    background: #000000;
+}
+
+.terminal {
+    font-size: 13px;
+}
+
+.terminal-line {
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .man-page {
+        height: auto;
+    }
+
+    .console {
+        height: 500px;
+    }
+}
