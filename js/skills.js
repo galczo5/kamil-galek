@@ -16,7 +16,7 @@ var SKILLS = {
             name: 'JavaScript',
             frameworks: ['AngularJS', 'jQuery', 'React', 'Vue.js'],
             level: 'advanced',
-            description: ''
+            description: 'JavaScript is my third and last main technology. Angular, jQuery and Vue.js I use in commercial work and in my personal projects.'
         },
         '3': {
             name: 'C',
@@ -66,10 +66,10 @@ var SKILLS = {
         '12': {
             name: 'Sound',
             apps: ['Audacity', 'Ardour', 'Reaper'],
-            description: ''
+            description: "I'm a guitar player so it's normal that I like to work with sound."
         }
     },
-    toString: function (dispalyAll, asc) {
+    toString: function (dispalyAll) {
         
     }
 };
