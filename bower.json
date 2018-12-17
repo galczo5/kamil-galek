@@ -1,9 +1,0 @@
-{
-  "name": "kamil-galek.pl",
-  "dependencies": {
-    "jquery": "^3.1.0",
-    "bootstrap": "^3.3.7",
-    "angular": "^1.5.8",
-    "perfect-scrollbar": "^0.6.12"
-  }
-}
